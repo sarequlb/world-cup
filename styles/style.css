@@ -1,0 +1,151 @@
+body{
+    /* font-popins */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+.fifa-show{
+    display: flex;
+    color:white;
+    height: 610px;
+    width: 1380px;
+    background-color:black;
+    border-radius: 30px;
+    margin-left: 240px;
+    margin-right: 80px;
+}
+.biggest-show{
+    width: 431px;
+    height: 424px;
+    left: 246px;
+    top: 161px;
+    margin-left: 100px;
+}
+.biggest-show h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.biggest-show p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.top-banner img{
+    width: 124.9%;
+    margin-left: 20px;
+    margin-top: 85px;
+}
+.biggest-show a{
+    text-decoration: none;
+    color: white;
+    background-color:#DD0000;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+ /* 3 button and grid */
+.side-nav a{
+    text-decoration: none;
+    text-align: center;
+    display: grid;
+    margin-bottom: 40px;
+    color: black;
+    background-color:#FFFFFF;
+    border-radius: 4px;
+    padding: 10px 10px;
+    width: 182px;
+    height: 34px;
+    margin-left: 50px;
+    margin-top:40px ;
+ }
+ .side-nav{
+    background-color:black;
+    width: 312px;
+    height: 312px;
+    padding-top: 10px;
+    margin-left: 140px;
+    border-radius: 7px;
+    /* border-radius: 9px; */
+ }
+ .schedule a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3px 20px;
+    border-radius:3px;
+
+ }
+ .button{
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ .side-nav,.schedule{
+    float: left;
+ }
+ .side-nav{
+    margin-top: 90px;
+    margin-left: 250px;
+ }
+ .time{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.267);
+    border-radius: 5px;
+    width: 312px;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+ }
+ .comments-number{
+    display: flex;
+    margin-left: 10px;
+ }
+ .time a{
+    margin-top: 10px;
+ }
+ .timer p{
+    margin-left: 8px;
+ }
+ .timer{
+    display: flex;
+    align-items: center;
+ }
+ .comment{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+ }
+ .comment p{
+    display: flex;
+    margin-left: 8px;
+ }
+ .schedule{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top:90px;
+    margin-left: 50px;
+ }
+ /* footer */
+ .footer{
+   margin-top: 1500px;
+   margin-right: 1000px;
+   text-align: center;
+   width: 100%;
+   padding-top: 40px;
+   height: 200px;
+   color: white;
+   background-color: rgb(0, 0, 0);
+ }
+ .footer a{
+   text-decoration: none;
+   color: #FFFFFF;
+   margin-left: 30px;
+ }
+ .our-site{
+   border-top: 1px solid #ededed59;
+   padding-top: 50px;
+ }
+ @media  screen and (max-width:576px) {
+   .side-nav{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+   }
+   
+ }
