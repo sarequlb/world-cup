@@ -16,8 +16,8 @@ body{
     margin-right: 80px;
 }
 .biggest-show{
-    width: 431px;
     height: 424px;
+    width: 424px;
     left: 246px;
     top: 161px;
     margin-left: 100px;
@@ -42,7 +42,10 @@ body{
     padding: 10px 25px;
     border-radius: 5px;
 }
- /* 3 button and grid */
+ /* 3 button and grid-------------------------------------------
+ ------------------------------------------------------------
+ -----------------------------------------------------------
+ ------------------------------------------------------------ */
 .side-nav a{
     text-decoration: none;
     text-align: center;
@@ -56,6 +59,9 @@ body{
     height: 34px;
     margin-left: 50px;
     margin-top:40px ;
+ }
+ nav ul li{
+   list-style: none;
  }
  .side-nav{
     background-color:black;
@@ -72,6 +78,7 @@ body{
     border: 1px solid black;
     padding: 3px 20px;
     border-radius:3px;
+    text-align: center;
 
  }
  .button{
@@ -122,7 +129,9 @@ body{
     margin-top:90px;
     margin-left: 50px;
  }
- /* footer */
+ /* footer-------------------------------------
+ ---------------------------------------------------------
+ ---------------------------------------------------------- */
  .footer{
    margin-top: 1500px;
    margin-right: 1000px;
@@ -142,10 +151,50 @@ body{
    border-top: 1px solid #ededed59;
    padding-top: 50px;
  }
+ /* media query
+ ----------------------------------------------------------
+ --------------------------------------------------------------- */
  @media  screen and (max-width:576px) {
-   .side-nav{
-      display: grid;
+   .schedule{
       grid-template-columns: repeat(1,1fr);
    }
    
  }
+ @media screen and (min-width:577px) and (max-width:992px) {
+   .schedule{
+      grid-template-columns: repeat(2,1fr);
+   }
+   
+ }
+@media screen and (max-width:576px) {
+   .fifa-show{
+      flex-direction: column-reverse;
+   }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+   .side-nav {
+      margin-top: 40px;
+      margin-left: 50px;
+      background-color: #FFFFFF;
+      display: flex;
+   }
+   .side-nav ul li{
+      display:inline;
+   }
+}
+@media screen and (max-width:576px) {
+   .fifa-show{
+      flex-direction: column;
+   }
+   .side-nav {
+      margin-top: 40px;
+      margin-left: 10px;
+      background-color: #FFFFFF;
+
+   }
+   .side-nav a{
+      background: none;
+      display: inline;
+   }
+
+}
