@@ -79,6 +79,7 @@ body{
     padding: 3px 20px;
     border-radius:3px;
     text-align: center;
+    margin-left: 0;
 
  }
  .button{
@@ -156,28 +157,77 @@ body{
  --------------------------------------------------------------- */
  @media  screen and (max-width:576px) {
    .schedule{
+      margin-left: 250px;
       grid-template-columns: repeat(1,1fr);
+   }
+   .schedule img{
+      width: 80%;
    }
    
  }
  @media screen and (min-width:577px) and (max-width:992px) {
    .schedule{
+
       grid-template-columns: repeat(2,1fr);
    }
    
  }
 @media screen and (max-width:576px) {
+   .biigest-show.top-banner{
+      flex-direction: column;
+   }
+}
+@media screen and (max-width:576px) {
+   .top-banner{
+      width:74%;
+      margin-top: 300px;
+      margin-left: -50px;
+   }
+@media screen and (max-width:576px) {
    .fifa-show{
-      flex-direction: column-reverse;
+      width:82%;
+      height: 1000px;
+      margin-left: 0;
+   }
+   .biggest-show h1{
+      width: 10%;
+      margin-left: -90px;
+   }
+   .biggest-show p{
+      font-size: ;
+      width: 200px;
+      margin-left: -90px;
+   }
+   .biggest-show a{
+      margin-left: -90px;
+   }
+   .side-nav{
+      width: 280px;
+   }
+   .side-nav a{
+      margin-left: -5px;
+   }
+
+}
+@media screen and (max-width:576px) {
+   body{
+      overflow-x: hidden;
+      width:70%;
+      margin-left: 0;
+   }
+   .transfer-live{
+      margin-left: -230px;
+      width:100%;
    }
 }
 @media screen and (min-width:577px) and (max-width:992px) {
    .side-nav {
       margin-top: 40px;
-      margin-left: 50px;
+      margin-left: 80px;
       background-color: #FFFFFF;
       display: flex;
    }
+   
    .side-nav ul li{
       display:inline;
    }
@@ -186,15 +236,10 @@ body{
    .fifa-show{
       flex-direction: column;
    }
-   .side-nav {
-      margin-top: 40px;
-      margin-left: 10px;
-      background-color: #FFFFFF;
-
-   }
    .side-nav a{
-      background: none;
-      display: inline;
+      /* background: none; */
+      /* display: inline; */
    }
+
 
 }
